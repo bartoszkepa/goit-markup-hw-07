@@ -7,7 +7,7 @@
   "liveServer.settings.port": 5501,
   "liveSassCompile.settings.formats": [
     {
-      "format": "compressed",
+      "format": "expanded",
       "extensionName": ".min.css",
       "savePath": "~/../css"
     }
