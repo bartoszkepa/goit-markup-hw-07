@@ -120,13 +120,13 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.section--lorem {
+.section .section--lorem {
   padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.section--background {
+.section .section--background {
   background: #f5f4fa;
 }
 
@@ -370,6 +370,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
+  fill: rgb(117, 117, 117);
 }
 .link:hover, .link:focus {
   color: #2196f3;

@@ -13,6 +13,8 @@
     color: $color-text-link;
     display: flex;
     align-items: center;
+    gap: 10px;
+    fill: rgba(117, 117, 117, 1);
   }
   &:hover,
   &:focus {
