@@ -645,34 +645,33 @@ textarea:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.checkbox > a {
-  color: #2196f3;
-  text-decoration: underline;
-}
-.checkbox > a__input {
+.checkbox__input {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
-.checkbox > a__icon {
+.checkbox__icon {
   border-radius: 2px;
   width: 16px;
   height: 15px;
   fill: #ffffff;
   border: 0.2px solid rgb(33, 33, 33);
 }
-.checkbox > a__icon::after {
+.checkbox__icon::after {
   content: "";
   background: #ffffff;
   border: 0.2px solid #ffffff;
 }
-.checkbox > a__input:checked + .checkbox > a__icon {
+.checkbox__input:checked + .checkbox__icon {
   border-color: #2196f3;
   background-color: #2196f3;
 }
-.checkbox > a__input:checked + .checkbox > a__icon::after {
+.checkbox__input:checked + .checkbox__icon::after {
   fill: #ffffff;
   border: 0.2px solid rgb(33, 33, 33);
+}
+.checkbox .checkbox > a {
+  color: #2196f3;
+  text-decoration: underline;
 }
 
 .images-card {
