@@ -7,11 +7,11 @@
     text-align: center;
     margin-bottom: 50px;
   }
-  .section--background {
-    background: $color-background-heder-button;
-  }
-  .section--lorem {
-    padding-bottom: 0;
-    display: flex;
-  }
+}
+.section--lorem {
+  padding-bottom: 0;
+  display: flex;
+}
+.section--background {
+  background: $color-background-heder-button;
 }
